@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>
+    </title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body id="bg">
+        <section >
+             <h1>Прогноз погоды </h1>
+        <form id="form1" >
+            
+        <div class="input">
+            <input type="text" id="txt" class="inputValue" placeholder="Введите город (Англ)"/>
+            <input type="button" id="but" value="Отправить" onclick="buttons()"/>
+            <input type="reset" id="res" value="Очистить"/>
+        </div>
+             </form>
+        <div class="display" id="pole">
+            <table>
+                <tr>
+                <th><p class="desc" id="name"></p></th><!--Ясность-->
+                <th><p class="day1" id="name"></p></th><!--температура-->
+                <th><p class="day2" id="name"></p></th>    <!--maxminтемпература-->
+                    <th><p class="day3" id="name"></p></th><!--Ветер--> 
+                </tr>
+                <tr>
+                <th><p class="day4" id="name"></p></th>
+                <th><p class="day5" id="name"></p></th>
+                <th><p class="day6" id="name"></p></th>
+                <th><p class="day7" id="name"></p></th>
+                </tr>
+                <h1 class="name"></h1>
+                </table>
+            <ul><li class="day8" id="name1">
+                </li>
+                <li class="day9" id="name1">
+                </li>
+                <li class="day10" id="name1">
+                </li>
+                <li class="day11" id="name1">
+                </li>
+                <li class="day12" id="name1">
+                </li>
+            </ul>
+                </div>
+        
+        </section>
+        <script src="app.js"></script>
+    </body>
+</html>
